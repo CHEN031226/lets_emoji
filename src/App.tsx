@@ -108,7 +108,7 @@ const App: React.FC = () => {
           style={{
             padding: '0 24px',
             backgroundColor: '#2563eb',
-            color: '#white',
+            color: 'white',
             border: 'none',
             borderRadius: '16px',
             cursor: 'pointer',
@@ -119,7 +119,6 @@ const App: React.FC = () => {
             gap: '8px',
             transition: 'transform 0.1s, opacity 0.2s',
             opacity: (!input.trim() || loading) ? 0.6 : 1,
-            color: 'white'
           }}
         >
           <Send size={18} />
