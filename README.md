@@ -32,20 +32,13 @@
 
 ## 项目搭建与构建
 
-### 1. 克隆项目
-
-```bash
-git clone <你的仓库地址>
-cd vide
-```
-
-### 2. 安装依赖
+### 1. 安装依赖
 
 ```bash
 npm install
 ```
 
-### 3. 启动开发服务器
+### 2. 启动开发服务器
 
 ```bash
 npm run dev
@@ -53,7 +46,7 @@ npm run dev
 
 访问 `http://localhost:5173` 查看应用。
 
-### 4. 构建生产版本
+### 3. 构建生产版本
 
 ```bash
 npm run build
@@ -61,13 +54,13 @@ npm run build
 
 构建产物会输出到 `dist/` 目录。
 
-### 5. 本地预览生产构建
+### 4. 本地预览生产构建
 
 ```bash
 npm run preview
 ```
 
-### 6. 代码检查
+### 5. 代码检查
 
 ```bash
 npm run lint
